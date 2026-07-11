@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+    background-color: bisque;
+}
+header{
+    background-color: aliceblue;
+    color: brown;
+    padding: 10px;
+    margin-bottom: 40px;
+
+}
+footer{
+    background-color: blueviolet;
+    color: aqua;
+    padding: 10px;
+    margin-top: 40px;
+}
