@@ -1,0 +1,30 @@
+div{
+    margin: 50px;
+    padding: 20px;
+}
+
+#div1{
+    border: 2px solid green;
+    width: 100px;
+    height: 20vh;
+    background-color: antiquewhite;
+    overflow: auto;
+
+}
+#div2{
+    border: 2px solid green;
+    width: 100px;
+    height: 20vh;
+    background-color: rgb(206, 137, 47);
+    overflow-x: auto;
+    overflow-y: hidden;
+    
+}
+#div3{
+    border: 2px solid green;
+    width: 100px;
+    height: 20vh;
+    background-color: rgb(157, 207, 38);
+    overflow: scroll;
+    
+}
