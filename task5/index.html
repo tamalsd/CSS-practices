@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Floating contact widget </title>
+        <style>
+            body{
+                height: 2000px;
+            }
+            .contactbox{
+                position: fixed;
+                bottom: 20px;
+                right: 20px;
+                width: 150px;
+                background-color: antiquewhite;
+                color: blue;
+                text-align: center;
+
+                padding: 20px;
+                border: 5px solid black;
+                border-radius: 10px;
+
+                z-index:100;
+            }
+            .contactbox:hover{
+                background-color: aqua;
+                outline: 5px solid red;
+                outline-offset: 5px;
+            }
+        </style>
+
+    </head>
+    <body>
+        <h2>Scroll down</h2>
+        <div class="contactbox">
+            <h3>Contact us</h3>
+            <p>017111111222</p>
+            <a href="support@gmail.com">Email us</a>
+            
+        </div>
+    </body>
+</html>

@@ -4,8 +4,8 @@
     height: 250px;
     border: 2px solid rgb(75, 61, 61);
     background-color: bisque;
-    padding: 20px;
-    margin: 20px;
+    padding: 30px;
+    margin: 50px;
     text-align: center;
 }
 #product:hover{
